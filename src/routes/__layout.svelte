@@ -1,9 +1,10 @@
 <script>
-    import global from '../global.css';
-    import Nav from '../components/Nav.svelte';
+	import global from '../global.css';
+	import Nav from '../components/Nav.svelte';
 </script>
+
 <svelt:head>
-    <title>MovieRama</title>
+	<title>MovieRama</title>
 </svelt:head>
 <Nav />
 
