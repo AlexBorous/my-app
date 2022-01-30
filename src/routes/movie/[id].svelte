@@ -6,7 +6,6 @@
 			}&language=en-US`
 		);
 		const movieDetail = await response.json();
-		console.log(movieDetail);
 		if (response.ok) {
 			return {
 				props: { movieDetail }
